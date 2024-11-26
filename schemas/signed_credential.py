@@ -24,4 +24,3 @@ class SignedCredential(Signed, BaseModel):
     renderMethod: List[dict] | dict = None
     termsOfUse: List[dict] | dict = None
     relatedResources: List[dict] | dict = None
-    proof: List[dict] | dict = None
